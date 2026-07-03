@@ -11,7 +11,13 @@ export type GestureName =
   | "Hand Detected"
   | "Pointing"
   | "Pinch"
-  | "Open Palm";
+  | "Open Palm"
+  | "Swipe Left"
+  | "Swipe Right"
+  | "Swipe Up"
+  | "Swipe Down"
+  | "Zoom In"
+  | "Zoom Out";
 
 export type FingerCursor = {
   x: number;
