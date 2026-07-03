@@ -84,7 +84,7 @@ export function CubeScene({ cursorPosition }: CubeSceneProps) {
   const cubes = useCubeStore((state) => state.cubes);
 
   return (
-    <section className="h-[520px] overflow-hidden rounded-[2rem] border border-white/10 bg-slate-900 shadow-2xl shadow-cyan-950/30">
+    <section className="h-[520px] overflow-hidden rounded-4xl border border-white/10 bg-slate-900 shadow-2xl shadow-cyan-950/30">
       <Canvas camera={{ position: [4, 4, 6], fov: 45, zoom: 1 }}>
         <color attach="background" args={["#020617"]} />
 
